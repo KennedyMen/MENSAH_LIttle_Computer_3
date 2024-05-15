@@ -8,176 +8,128 @@ INFO: Auto-config - Wrote:
     -f /Users/033103kennedymensah/MENSAH_LC3/.dvt/default.build.auto.1
 *** List of invocations ***
 Invocation #1 +dvt_init+dvt in /Users/033103kennedymensah/MENSAH_LC3/.dvt/default.build.auto.1 at line 9
-*** Done analyzing build configuration [88 ms] ***
+*** Done analyzing build configuration [424 ms] ***
 
 *** Start VHDL build ***
 *** Invocation #1***
-Loading (1) /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd ...
-Done /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd [114 ms, 918 lines, VHDL_2008] ...
-Loading (2) /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd ...
-Done /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd [34 ms, 209 lines, VHDL_2008] ...
-*** Done invocation #1 [149 ms] ***
-*** Done parsing [1294 ms] ***
-*** Total number of lines [1 127] ***
-Performing post full build step 1 (VHDL - RU) [32 ms] ...
-*** Files summary [2 total, 2 unique] ***
-*** Done VHDL build [1s.329ms] ***
+Loading (1) /Users/033103kennedymensah/MENSAH_LC3/MENSAH_DATA_PATH.vhd ...
+Done /Users/033103kennedymensah/MENSAH_LC3/MENSAH_DATA_PATH.vhd [34 ms, 611 lines, VHDL_2008] ...
+Loading (2) /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd ...
+Done /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd [63 ms, 918 lines, VHDL_2008] ...
+Loading (3) /Users/033103kennedymensah/MENSAH_LC3/clock.vhd ...
+Done /Users/033103kennedymensah/MENSAH_LC3/clock.vhd [27 ms, 229 lines, VHDL_2008] ...
+Loading (4) /Users/033103kennedymensah/MENSAH_LC3/txt_util.vhd ...
+Done /Users/033103kennedymensah/MENSAH_LC3/txt_util.vhd [60 ms, 587 lines, VHDL_2008] ...
+Loading (5) /Users/033103kennedymensah/MENSAH_LC3/MENSAH_TB_LC3.vhd ...
+Done /Users/033103kennedymensah/MENSAH_LC3/MENSAH_TB_LC3.vhd [10 ms, 66 lines, VHDL_2008] ...
+Loading (6) /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3.vhd ...
+Done /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3.vhd [24 ms, 558 lines, VHDL_2008] ...
+Loading (7) /Users/033103kennedymensah/MENSAH_LC3/util_pkg.vhd ...
+Done /Users/033103kennedymensah/MENSAH_LC3/util_pkg.vhd [4 ms, 26 lines, VHDL_2008] ...
+*** Done invocation #1 [251 ms] ***
+*** Done parsing [834 ms] ***
+*** Total number of lines [2 995] ***
+Performing post full build step 1 (VHDL - RU) [104 ms] ...
+*** Files summary [7 total, 7 unique] ***
+*** Done VHDL build [940 ms] ***
 
 *** Start mixed mode extension build ***
-Performing mixed post full build step (VHDL - RU) [11 ms] ...
+Performing mixed post full build step (VHDL - RU) [10 ms] ...
 *** Warning: DEPRECATED_PACKAGE: Package 'ieee.std_logic_unsigned' is deprecated, use 'IEEE.NUMERIC_STD' standard package
-    at line 48 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:48 [compile index 1]
+    at line 48 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:48 [compile index 2]
 *** Warning: DEPRECATED_PACKAGE: Package 'ieee.std_logic_signed' is deprecated, use 'IEEE.NUMERIC_STD' standard package
-    at line 84 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:84 [compile index 1]
+    at line 84 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:84 [compile index 2]
 *** Warning: DEPRECATED_PACKAGE: Package 'ieee.std_logic_unsigned' is deprecated, use 'IEEE.NUMERIC_STD' standard package
-    at line 141 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:141 [compile index 1]
+    at line 141 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:141 [compile index 2]
 *** Warning: DEPRECATED_PACKAGE: Package 'ieee.std_logic_unsigned' is deprecated, use 'IEEE.NUMERIC_STD' standard package
-    at line 186 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:186 [compile index 1]
+    at line 186 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:186 [compile index 2]
 *** Warning: DEPRECATED_PACKAGE: Package 'IEEE.STD_LOGIC_UNSIGNED' is deprecated, use 'IEEE.NUMERIC_STD' standard package
-    at line 333 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:333 [compile index 1]
+    at line 333 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:333 [compile index 2]
 *** Warning: DEPRECATED_PACKAGE: Package 'IEEE.STD_LOGIC_UNSIGNED' is deprecated, use 'IEEE.NUMERIC_STD' standard package
-    at line 429 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:429 [compile index 1]
+    at line 429 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:429 [compile index 2]
 *** Warning: DEPRECATED_PACKAGE: Package 'ieee.std_logic_unsigned' is deprecated, use 'IEEE.NUMERIC_STD' standard package
-    at line 455 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:455 [compile index 1]
+    at line 455 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:455 [compile index 2]
 *** Warning: DEPRECATED_PACKAGE: Package 'ieee.std_logic_unsigned' is deprecated, use 'IEEE.NUMERIC_STD' standard package
-    at line 497 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:497 [compile index 1]
-Performing mixed post full build step (VHDL - RT) [497 ms] ...
+    at line 497 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:497 [compile index 2]
+*** Warning: DEPRECATED_PACKAGE: Package 'IEEE.std_logic_unsigned' is deprecated, use 'IEEE.NUMERIC_STD' standard package
+    at line 116 in /Users/033103kennedymensah/MENSAH_LC3/clock.vhd:116 [compile index 3]
+*** Warning: DEPRECATED_PACKAGE: Package 'IEEE.std_logic_arith' is deprecated, use 'IEEE.NUMERIC_STD' standard package
+    at line 9 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_TB_LC3.vhd:9 [compile index 5]
+*** Warning: DEPRECATED_PACKAGE: Package 'IEEE.std_logic_unsigned' is deprecated, use 'IEEE.NUMERIC_STD' standard package
+    at line 10 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_TB_LC3.vhd:10 [compile index 5]
+*** Warning: DEPRECATED_PACKAGE: Package 'Ieee.std_logic_unsigned' is deprecated, use 'IEEE.NUMERIC_STD' standard package
+    at line 5 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3.vhd:5 [compile index 6]
+Performing mixed post full build step (VHDL - RT) [619 ms] ...
 *** Warning: UNSPECIFIED_TOP: Please specify a -top module/entity/configuration in the project build file
-*** Top design candidates: work.MENSAH_REGISTER_ARRAY, work.MENSAH_LC3_COMPLETE
-Performing mixed post full build step (MIXED - ELAB) [426 ms] ...
-Performing mixed post full build step (MIXED - UNEL) [48 ms] ...
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'IR_TO_FSM' is not declared
-    at line 139 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:139 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'NZP_TO_FSM' is not declared
-    at line 140 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:140 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'CLK' is not declared
-    at line 142 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:142 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'RESET' is not declared
-    at line 143 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:143 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'MAR_EN' is not declared
-    at line 145 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:145 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'MDR_EN' is not declared
-    at line 146 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:146 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'MEM_EN' is not declared
-    at line 147 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:147 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'LD_PC' is not declared
-    at line 148 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:148 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'LD_MARMUX' is not declared
-    at line 149 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:149 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'LD_REG' is not declared
-    at line 150 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:150 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'LD_CC' is not declared
-    at line 151 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:151 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'READ_WRITE_ENABLE' is not declared
-    at line 152 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:152 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'LD_DR' is not declared
-    at line 153 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:153 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'LD_SR2' is not declared
-    at line 154 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:154 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'LD_SR1' is not declared
-    at line 155 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:155 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'LD_ALU' is not declared
-    at line 156 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:156 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'LD_SR2MUX' is not declared
-    at line 157 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:157 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'LD_PCMUX' is not declared
-    at line 158 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:158 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'LD_ADDR2MUX' is not declared
-    at line 159 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:159 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'LD_ADDR1MUX' is not declared
-    at line 160 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:160 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'LD_IR' is not declared
-    at line 161 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:161 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'GATE_PC' is not declared
-    at line 163 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:163 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'GATE_ALU' is not declared
-    at line 164 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:164 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'GATE_MARMUX' is not declared
-    at line 165 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:165 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'GATE_MDR' is not declared
-    at line 166 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:166 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'BUS_IN' is not declared
-    at line 168 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:168 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'MDR_IN' is not declared
-    at line 169 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:169 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'GATE_MDR_OUT' is not declared
-    at line 170 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:170 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'GATE_ALU_OUT' is not declared
-    at line 171 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:171 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'GATE_PC_OUT' is not declared
-    at line 172 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:172 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'GATE_MARMUX_OUT' is not declared
-    at line 173 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:173 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'CLK' is not declared
-    at line 182 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:182 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'RSTn' is not declared
-    at line 183 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:183 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'OUT_FROM_IR' is not declared
-    at line 184 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:184 [compile index 2]
-*** Error: UNDECLARED_IDENTIFIER: Identifier 'FROM_NZP' is not declared
-    at line 185 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:185 [compile index 2]
-*** Warning: UNELABORATED_ENTITY: Entity 'work.MENSAH_MAR_REG' is not elaborated
-    at line 50 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:50 [compile index 1]
-*** Warning: UNELABORATED_ENTITY: Entity 'work.MENSAH_RAM' is not elaborated
-    at line 87 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:87 [compile index 1]
-*** Warning: SENSITIVITY_MISSING: Missing 'sOP_Q' from sensitivity list
-    at line 125 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:125 [compile index 1]
-*** Warning: SENSITIVITY_MISSING: Missing 'data' from sensitivity list
-    at line 126 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:126 [compile index 1]
-*** Warning: UNELABORATED_ENTITY: Entity 'work.MENSAH_MDR_REG' is not elaborated
-    at line 144 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:144 [compile index 1]
-*** Warning: SENSITIVITY_MISSING: Missing 'MDR_DATA' from sensitivity list
-    at line 169 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:169 [compile index 1]
-*** Warning: UNELABORATED_ENTITY: Entity 'work.MENSAH_GATE' is not elaborated
-    at line 189 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:189 [compile index 1]
-*** Warning: SENSITIVITY_MISSING: Missing 'GATE_DATA' from sensitivity list
-    at line 208 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:208 [compile index 1]
-*** Warning: UNELABORATED_ENTITY: Entity 'work.MENSAH_ALU' is not elaborated
-    at line 336 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:336 [compile index 1]
-*** Warning: UNELABORATED_ENTITY: Entity 'work.MENSAH_mux_2_1' is not elaborated
-    at line 364 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:364 [compile index 1]
-*** Warning: UNELABORATED_ENTITY: Entity 'work.MENSAH_mux_3_1' is not elaborated
-    at line 383 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:383 [compile index 1]
-*** Warning: UNELABORATED_ENTITY: Entity 'work.MENSAH_mux_4_1' is not elaborated
-    at line 405 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:405 [compile index 1]
-*** Warning: UNELABORATED_ENTITY: Entity 'work.MENSAH_ADD' is not elaborated
-    at line 431 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:431 [compile index 1]
-*** Warning: UNELABORATED_ENTITY: Entity 'work.MENSAH_NZP' is not elaborated
-    at line 456 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:456 [compile index 1]
-*** Warning: UNELABORATED_ENTITY: Entity 'work.MENSAH_PC_CNT' is not elaborated
-    at line 498 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:498 [compile index 1]
+*** Top design candidates: work.PATH, work.MENSAH_TB_LC3
+Performing mixed post full build step (MIXED - ELAB) [616 ms] ...
+Performing mixed post full build step (MIXED - UNEL) [84 ms] ...
 *** Warning: SENSITIVITY_MISSING: Missing 'PC_DATA' from sensitivity list
-    at line 526 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:526 [compile index 1]
+    at line 526 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:526 [compile index 2]
 *** Warning: SENSITIVITY_MISSING: Missing 'PC_DATA_PLUS' from sensitivity list
-    at line 527 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:527 [compile index 1]
-*** Warning: UNELABORATED_ENTITY: Entity 'work.MENSAH_SIGN_5_1_EXTENDER' is not elaborated
-    at line 545 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:545 [compile index 1]
-*** Warning: UNELABORATED_ENTITY: Entity 'work.MENSAH_SIGN_4_1_EXTENDER' is not elaborated
-    at line 569 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:569 [compile index 1]
-*** Warning: UNELABORATED_ENTITY: Entity 'work.MENSAH_SIGN_10_1_EXTENDER' is not elaborated
-    at line 591 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:591 [compile index 1]
-*** Warning: UNELABORATED_ENTITY: Entity 'work.MENSAH_ZERO_EXTENDER' is not elaborated
-    at line 613 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:613 [compile index 1]
-*** Warning: UNELABORATED_ENTITY: Entity 'work.MENSAH_SIGN_8_1_EXTENDER' is not elaborated
-    at line 636 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:636 [compile index 1]
-Performing mixed post full build step (VHDL - RD) [4 ms] ...
-Performing mixed post full build step (VHDL - US) [10 ms] ...
+    at line 527 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:527 [compile index 2]
+*** Warning: SENSITIVITY_MISSING: Missing 'GATE_DATA' from sensitivity list
+    at line 208 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:208 [compile index 2]
+*** Warning: SENSITIVITY_MISSING: Missing 'sOP_Q' from sensitivity list
+    at line 125 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:125 [compile index 2]
+*** Warning: SENSITIVITY_MISSING: Missing 'data' from sensitivity list
+    at line 126 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:126 [compile index 2]
+*** Warning: SENSITIVITY_MISSING: Missing 'MDR_DATA' from sensitivity list
+    at line 169 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:169 [compile index 2]
+*** Warning: UNRESOLVED_COMPONENT: Component 'MENSAH_LC3' of instance 'datap' is not bound
+    at line 58 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_TB_LC3.vhd:58 [compile index 5]
+*** Warning: UNELABORATED_PACKAGE: Package 'work.CLOCKS' is not elaborated
+    at line 7 in /Users/033103kennedymensah/MENSAH_LC3/clock.vhd:7 [compile index 3]
+*** Warning: UNELABORATED_ENTITY: Entity 'work.CLOCK' is not elaborated
+    at line 90 in /Users/033103kennedymensah/MENSAH_LC3/clock.vhd:90 [compile index 3]
+*** Warning: UNELABORATED_ENTITY: Entity 'work.LC3_MEMORY' is not elaborated
+    at line 118 in /Users/033103kennedymensah/MENSAH_LC3/clock.vhd:118 [compile index 3]
+*** Warning: UNELABORATED_PACKAGE: Package 'work.txt_util' is not elaborated
+    at line 6 in /Users/033103kennedymensah/MENSAH_LC3/txt_util.vhd:6 [compile index 4]
+*** Warning: MISSING_OTHERS_CHOICE: Case choice 'others' is not defined
+    at line 121 in /Users/033103kennedymensah/MENSAH_LC3/txt_util.vhd:121 [compile index 4]
+*** Warning: UNELABORATED_PACKAGE: Package 'work.util_package' is not elaborated
+    at line 3 in /Users/033103kennedymensah/MENSAH_LC3/util_pkg.vhd:3 [compile index 7]
+*** Warning: UNELABORATED_ENTITY: Entity 'work.LC3_FSM' is not elaborated
+    at line 9 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3.vhd:9 [compile index 6]
+*** Warning: SENSITIVITY_UNUSED: The process is not sensitive to 'FROM_NZP'
+    at line 67 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3.vhd:67 [compile index 6]
+*** Warning: SENSITIVITY_UNUSED: The process is not sensitive to 'next_state'
+    at line 67 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3.vhd:67 [compile index 6]
+*** Warning: MISSING_OTHERS_CHOICE: Case choice 'others' is not defined
+    at line 502 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3.vhd:502 [compile index 6]
+*** Warning: REDUNDANT_OTHERS_CHOICE: Case choice 'others' is redundant
+    at line 542 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3.vhd:542 [compile index 6]
+Performing mixed post full build step (VHDL - RD) [7 ms] ...
+Performing mixed post full build step (VHDL - US) [34 ms] ...
 Performing mixed post full build step (VHDL - USBD) [56 ms] ...
-*** Error: UNDECLARED_ENTITY: Entity 'PATH' is not declared
-    at line 131 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:131 [compile index 2]
-*** Error: UNDECLARED_ENTITY: Entity 'LC3_FSM' is not declared
-    at line 175 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:175 [compile index 2]
 *** Warning: SIGNAL_NEVER_READ: Signal 'S_D' is never read
-    at line 260 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:260 [compile index 1]
+    at line 260 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:260 [compile index 2]
 *** Warning: SIGNAL_NEVER_READ: Signal 'CH' is never read
-    at line 261 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:261 [compile index 1]
-*** Warning: GENERIC_NEVER_USED: Generic 'P' is never used
-    at line 7 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:7 [compile index 2]
-*** Warning: GENERIC_NEVER_USED: Generic 'MW' is never used
-    at line 8 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:8 [compile index 2]
-*** Warning: SIGNAL_NEVER_USED: Signal 'OP_A' is never used
-    at line 11 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:11 [compile index 2]
-*** Warning: SIGNAL_NEVER_USED: Signal 'OP_Q' is never used
-    at line 12 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3_COMPLETE.vhd:12 [compile index 2]
-*** Done mixed mode extension build [1s.091ms] ***
-*** Total build time [2s.523ms] ***
+    at line 261 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_COMPONENTS.vhd:261 [compile index 2]
+*** Warning: SIGNAL_NEVER_READ: Signal 'ADD_WIDTH' is never read
+    at line 19 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_TB_LC3.vhd:19 [compile index 5]
+*** Warning: SIGNAL_NEVER_READ: Signal 'WIDTH' is never read
+    at line 20 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_TB_LC3.vhd:20 [compile index 5]
+*** Warning: SIGNAL_NEVER_READ: Signal 'REG_ADD' is never read
+    at line 21 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_TB_LC3.vhd:21 [compile index 5]
+*** Warning: SIGNAL_NEVER_READ: Signal 'E' is never read
+    at line 22 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_TB_LC3.vhd:22 [compile index 5]
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'cpu_state' is never written
+    at line 47 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3.vhd:47 [compile index 6]
+*** Warning: SIGNAL_NEVER_READ: Signal 'BR' is never read
+    at line 52 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3.vhd:52 [compile index 6]
+*** Warning: SIGNAL_NEVER_READ: Signal 'JMP' is never read
+    at line 53 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3.vhd:53 [compile index 6]
+*** Warning: SIGNAL_NEVER_READ: Signal 'RTI' is never read
+    at line 60 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3.vhd:60 [compile index 6]
+*** Warning: SIGNAL_NEVER_READ: Signal 'ST' is never read
+    at line 61 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3.vhd:61 [compile index 6]
+*** Warning: SIGNAL_NEVER_READ: Signal 'TRAP' is never read
+    at line 64 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3.vhd:64 [compile index 6]
+*** Warning: SIGNAL_NEVER_USED: Signal 'CLK' is never used
+    at line 11 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3.vhd:11 [compile index 6]
+*** Warning: SIGNAL_NEVER_USED: Signal 'RSTn' is never used
+    at line 12 in /Users/033103kennedymensah/MENSAH_LC3/MENSAH_LC3.vhd:12 [compile index 6]
+*** Done mixed mode extension build [1s.454ms] ***
+*** Total build time [2s.872ms] ***
